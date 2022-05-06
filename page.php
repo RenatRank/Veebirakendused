@@ -87,7 +87,7 @@
 	if($_SERVER["REQUEST_METHOD"] === "POST"){
         if(isset($_POST["login_submit"])){
 			if(empty($email)){
-                $email_error = $_POST;
+                $email_error = "Saan selle errori!";
             }
         } else {
             $email_error = "Palun sisesta oma e-posti aadress!";
